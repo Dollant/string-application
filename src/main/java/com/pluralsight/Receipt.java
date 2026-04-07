@@ -10,7 +10,8 @@ public class Receipt {
         int quantity = 3;
 
         // 3. Print the receipt message
-        System.out.println("You bought " + quantity + " " + itemName + " for $" + itemPrice);
+        System.out.println("You bought " + quantity + " " + itemName + " for $" + String.format("%.2f", itemPrice));
+
 
 
 
